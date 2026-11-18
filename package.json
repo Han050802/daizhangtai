@@ -1,0 +1,11 @@
+{
+  "name": "yidaizhang-local",
+  "version": "0.1.12",
+  "private": true,
+  "type": "module",
+  "description": "Local LAN accounting workspace; Python backend, local browser assets, no frontend build dependencies.",
+  "scripts": {
+    "check": "node --check public/account-picker.js && node --check public/voucher-editor.js && node --check public/payroll.js && node --check public/payroll-report.js && node --check public/payroll-xlsx.js && node --check public/ledger-draft-household.js && node --check public/ledger-draft-expenses.js && node --check public/ledger-draft-catalog.js && node --check public/ledger-draft-model.js && node --check public/ledger-draft.js && node --check public/ledger-draft-xlsx.js && node --check public/source-archive.js && node --check public/reconcile.js && node --check public/reconcile-voucher.js && node --check public/home-overview.js && node --check public/sales-workspace.js && node --check public/app.js && node --check public/company-search.js && node --check public/contract-progress.js && node --check public/bookkeeping-list.js && node --check public/client-editor.js && node --check public/customer-list.js && node --check public/finance-ui.js && node --check public/company-workspace.js && node --check public/company-vouchers.js && node --check public/company-balance.js && node --check public/ticket-actions.js && node --check public/ticket-list.js && node --check public/tax-overview.js && node --check public/tax-actions.js && node public/modules/tax-liquidation/scripts/check.mjs",
+    "test:tax-liquidation": "node --test public/modules/tax-liquidation/tests/*.test.mjs"
+  }
+}
